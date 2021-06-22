@@ -221,37 +221,36 @@ a:hover {
 
 /**Google Logo**/
 
+.img_span {
+  display: block;
+  margin: 0 auto;
+  min-width: 980px;
+}
+
 .img_logo_outcontain {
   margin-top: 47px;
   height: 233px;
-
-  /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 92px;
-    max-height: 290px;
-    height: calc(100% - 560px);
-    flex-shrink: 0;
-    box-sizing: border-box; */
 }
 
 .img_logo_incontain {
   padding-top: 109px;
-  /* max-height: 92px;
-    position: relative;
-    height: 100%;
-    margin-top: auto; */
 }
 
 .img_logo {
   background-size: 272px 92px;
   height: 92px;
   width: 272px;
-  /* max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
-    object-position: center bottom;
-    width: auto; */
+  background: url(/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
+    no-repeat;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url("/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
 }
 
 /**Image Logo**/
@@ -265,30 +264,31 @@ a:hover {
   white-space: nowrap;
 }
 
-/**Image Form**/
-
-.image_form_outcontain {
-  margin-top: 0 px;
-  top: 269 px;
-  width: 100%;
-  padding: 20px;
-  max-height: 160px;
-  flex-shrink: 0;
-  box-sizing: border-box;
-}
-
-.image_form_incontain {
-  width: auto;
-  max-width: 534px;
-  position: relative;
-  margin: 0 auto;
-  padding-top: 6px;
-}
-
 /**Image Search Bar**/
 
 .img_search_bar_outcontain {
-  width: 534 px;
+  margin-top: 0;
+  top: 330px;
+  position: absolute;
+  width: 100%;
+}
+
+/**Image Form**/
+
+.img_form_outcontain form {
+  overflow: visible;
+  width: 1139px;
+  margin: 0 auto;
+}
+
+/**Image Bar**/
+
+.img_bar_incontain {
+  position: relative;
+  margin: 0 auto;
+  width: 536px;
+}
+.img_bar {
   background: #fff;
   display: flex;
   border: 1px solid #dfe1e5;
@@ -296,30 +296,23 @@ a:hover {
   border-radius: 24px;
   height: 44px;
   margin: 0 auto;
+  width: 534px;
 }
 
-.img_search_bar_incontain {
-  flex: 1;
-  display: flex;
-  padding: 5px 8px 0 16px;
-  padding-left: 14px;
-}
+/**Image Icon**/
 
-/**Image Search Icon**/
-
-.img_search_icon_outcontain {
+.img_icon_outcontain {
   display: flex;
   align-items: center;
   padding-right: 13px;
   margin-top: -5px;
 }
 
-.img_search_icon_incontain {
+.img_icon_incontain {
   margin: auto;
 }
 
-.img_search_icon {
-  /* margin-top: 3px; */
+.img_icon {
   color: #9aa0a6;
   height: 20px;
   width: 20px;
@@ -329,35 +322,96 @@ a:hover {
   position: relative;
 }
 
-.img_search_icon svg {
-  display: block;
-  height: 100%;
-  width: 100%;
+.img_icon svg {
+  color: #9aa0a6;
+  fill: currentColor;
+  line-height: 24px;
 }
 
 /**Image Search Input**/
 
 .img_search_input_outcontain {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 14px;
+}
+
+.img_search_input_incontain {
   display: flex;
   flex: 1;
   flex-wrap: wrap;
 }
 
+.img_search {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34 !important;
+}
 .img_search_input {
   background-color: transparent;
   border: none;
-  margin: 0px;
+  margin: 0;
   padding: 0;
   color: rgba(0, 0, 0, 0.87);
   word-wrap: break-word;
   outline: none;
   display: flex;
   flex: 100%;
-  height: 34px;
+  margin-top: -7px;
   font-size: 16px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
 }
 
-/**Image Buttons**/
+/**Image Search Icon**/
+
+.img_search_icon_outcontain {
+  display: flex;
+  flex: 0 0 auto;
+  margin-top: -5px;
+  align-items: stretch;
+  flex-direction: row;
+}
+
+.img_search_icon_incontain {
+  flex: 1 0 auto;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  outline: none;
+  padding: 0 8px;
+}
+
+.img_search_icon {
+  height: 24px;
+  width: 24px;
+  background: url("//www.gstatic.com/images/icons/material/system/2x/photo_camera_grey600_24dp.png")
+    0 0 no-repeat;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0px;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url("//www.gstatic.com/images/icons/material/system/2x/photo_camera_grey600_24dp.png");
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-size: 24px;
+}
+
+.img_search_icon svg {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+/**Image Button**/
 
 .image_btn_outcontain {
   flex: 0 0 auto;
@@ -385,6 +439,12 @@ a:hover {
   line-height: 24px;
   position: relative;
   width: 24px;
+}
+
+.image_btn svg {
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 
 /**Style for Advanced**/

@@ -1,0 +1,231 @@
+
+ <body>
+        <!--Main Container-->
+        <div class="bottom-wrapper">
+             <!-- navigation bar -->
+            <div>
+                <div id="gb" class="gb_sg">
+               <div class="gb_Sf gb_xg">
+                    <div class="gb_Ue gb_xg gb_i">
+                        <a href="index.html">Return to Search</a>
+                    </div>
+                    <div id="gbq1" class="gb_Ue gb_xg gb_i gb_rc">
+                        <!-- Make a link?--> 
+                        GOOGLE
+                    </div>
+               </div> 
+            </div> 
+            </div>
+            <!--Title Container-->
+            <div>
+                <div class="appbar">
+                    Advanced Search
+                </div>
+            </div>
+            <!--Separator div-->
+            <div class="gy3Eif"></div>
+            <!--Form Container-->
+            <div class="Mza7yc">
+                <!--Form-->
+               <form id="s1za7b" action="/search" method="GET" name="f">
+                <input type="hidden" value="en" name="hl">
+                    <!--Form Header Outer Container-->
+                    <div class="form-row">
+                        <!--Form Header Inner Container-->
+                        <div class="form-group col-sm-2">
+                            <!--Form Instructions Outer Container
+                            <div class="I1Kbt">-->
+                                <!--Form Instructions Inner Container
+                                <div class="lOTAE">-->
+                                    <!--Form Instructions-->
+                                    <span>Find pages with...</span>
+                                </div>
+                            </div>
+                            <!--Empty space-->
+                            <div class="HoCfzc"></div>
+                            <!--Form Instructions Example Container-->
+                            <div class="form-group col-sm-4">
+                                <!--Form Instructions Example-->
+                                <span>To do this in the seach box</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Form Body Outer Container-->
+                    <div class="otByu">
+                        <!--as_q Container-->
+                        <div class="yIQOUb">
+                            <!--as_q Instructions Outer Container-->
+                            <div class="FAcADc">
+                                <!--as_q Instructions Inner Container-->
+                                <div class="lOTAE">
+                                    <!--as_q Instructions-->
+                                    <label for="xX4UFf">all these words:</label>
+                                </div>
+                            </div>
+                            <!--as_q Input Outer Container-->
+                            <div class="jYcx0e">
+                                <!--as_q Input Inner Container-->
+                                <div class="PLLUQc">
+                                    <!--as_q Input-->
+                                    <input id="xX4UFf" type="text" class="jfk.textinput" value="" autofocus="autofocus" name="as_q">
+                                </div>
+                            </div>
+                            <!--as_q Examples Outer Container-->
+                            <div class="cwqNnb dulCv">
+                                <!--as_q Examples Inner Container-->
+                                <div class="lOTAE">
+                                    Type the important words:
+                                    <!--as_q Examples-->
+                                    <span class="BFlQMb">tricolor rat terrier</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--as_epq Container-->
+                        <div class="yIQOUb">
+                            <!--as_epq Instructions Outer Container-->
+                            <div class="FAcADc">
+                                <!--as_epq Indtructions Inner Container-->
+                                <div class="lOTAE">
+                                    <!--as_epq Instructions-->
+                                    <label for="CWYCWc">this exact word or phrase:</label>
+                                </div>
+                            </div>
+                            <!--as_epq Input Outer Container-->
+                            <div class="jYcx0e">
+                                <!--as_epq Input Inner Container-->
+                                <div class="PLLUQc">
+                                    <!--as_epq Input-->
+                                    <input id="CWYCWc" type="text" class="jfk.textinput" value="" name="as_epq">
+                                </div>
+                            </div>
+                            <!--as_epq Examples Outer Container-->
+                            <div class="cwqNnb dulCv">
+                                <!--as_epq Examples Inner Container-->
+                                <div class="lOTAE">
+                                    Put exact words in quotes:
+                                    <!--as_epq Examples-->
+                                    <span class="BFlQMb">"rat terrier"</span>
+                                    </div>
+                            </div>
+                        </div>
+                        <!--as_oq Container-->
+                        <div class="yIQOUb">
+                            <!--as_oq Instructions Outer Container-->
+                            <div class="FAcADc">
+                                <!--as_oq Instructions Inner Container-->
+                                <div class="lOTAE">
+                                    <!--as_oq Instructions-->
+                                    <label for="mSoczb">any of these words:</label>
+                                </div>
+                            </div>
+                            <!--as_oq Input Outer Container-->
+                            <div class="jYcx0e">
+                                <!--as_oq Input Inner Container-->
+                                <div class="PLLUQc">
+                                    <!--as_oq Input-->
+                                    <input id="mSoczb" type="text" class="jfk.textinput" value="" name="as_oq">
+                                </div>
+                            </div>
+                            <!--as_oq Examples Outer Container-->
+                            <div class="cwqNnb dulCv">
+                                <!--as_oq Examples Inner Container-->
+                                <div class="lOTAE">
+                                    Type
+                                    <span class="BFlQMb">OR</span>
+                                    between all the words you want:
+                                    <!--as_oq Example-->
+                                    <span class="BFloMB">miniature OR standard</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--as_eq Container-->
+                        <div class="yIQOUb">
+                            <!--as_eq Instructions Outer Container-->
+                            <div class="FAcADc">
+                                <!--as_eq Instructions Inner Container-->
+                                <div class="lOTAE">
+                                    <!--as_eq Instructions-->
+                                    <label for="t2dX1c">none of these words:</label>
+                                </div>
+                            </div>
+                            <!--as_eq Input Outer Container-->
+                            <div class="jYcx0e">
+                                <!--as_eq Input Inner Container-->
+                                <div class="PLLUQc">
+                                    <!--as_eq Input-->
+                                    <input id="t2dX1c" type="text" class="jfk.textinput" value="" name="as_eq">
+                                </div>
+                            </div>
+                            <!--as_eq Examples Outer Container-->
+                            <div class="cwqNnb dulCv">
+                                <!--as_eq Example Inner Container-->
+                                <div class="lOTAE">
+                                    Put a minus sign just before words you don't want:
+                                    <!--as_eq Example-->
+                                    <span class="BFlQMb">-rodent, -"Jack Russell"</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--as_n Container-->
+                        <div class="yIQOUb">
+                            <!--as_n Instructions Outer Container-->
+                            <div class="FAcADc">
+                                <!--as_n Instructions Inner Container-->
+                                <div class="lOTAE">
+                                    <!--as_n Instructions-->
+                                    <label for="LK5akc">numbers ranging from:</label>
+                                </div>
+                            </div>
+                            <!--as_n Input Outer Container-->
+                            <div class="jYcx0e" style="position: relative">
+                                <!--as_nlo Input Inner Container-->
+                                <div style="display: table; width: 100%">
+                                    <div style="display: table-cell; padding-right: 16px">
+                                        <!--as_nlo Input-->
+                                        <input id="LK5akc" type="text" class="jfk.textinput" name="as_nlo">
+                                    </div>
+                                    <!--as_nhi Input Inner Container-->
+                                    <div style="display: table-cell; width: 40px; padding-right: 6px; padding-left: 6px; text-align: center; font-size: 13px; color: #202124;">to</div>
+                                    <div style="display: table-cell; padding-right: 16px;">
+                                        <!--as_nhi Input-->
+                                        <input type="text" class="jfk.textinput" name="as_nhi">
+                                    </div> 
+                                </div>
+                            </div>
+                            <!--as_n Example Outer Container-->
+                            <div class="cwqNnb dulCv">
+                                <!--as_n Example Inner Container-->
+                                <div class="lOTAE">
+                                    Put 2 periods between the numbers and add a unit of measure:
+                                    <!--as_n Example-->
+                                    <span class="BFlQMb">10..35 lb, $300..$500, 2010..2011</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Empty div between form info and Submit button-->
+                        <div class="yIQOUb"></div>
+                    </div>
+                    <!--Empty divider between form body and Submit button-->
+                    <div class="Qy8Xkb"></div>
+                    <!--Bottom Outer div Container-->
+                    <div class="yIQOUb">
+                        <!--Bottom left Empty div space-->
+                        <div class="FAcADc"></div>
+                        <!--Submit Button div-->
+                        <div class="jYcx0e" style text-align:right>
+                            <!--Submit Button-->
+                            <input class="jfk-button jfk-button action dUBGpe" stlye="user-select:none; line-height:100%; height:30px; min-width:120px" type="submit" value="Advanced Search">
+                        </div>
+                        <!--Right bottom empty div space -->
+                        <div class="cwNnb"></div>
+                        <!--Bottom empty div space-->
+                        <div class="yIQOUb"></div>
+                        <!--Divider line-->
+                        <div class="Qy8Xkb"></div>
+                        
+                    </div>
+               </form> 
+            </div>
+        </div>
+
+    </body>

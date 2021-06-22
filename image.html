@@ -19,32 +19,38 @@
         <a href="index.html">Search</a>
         <div class="nav_clear"></div>
       </div>
-      <center>
-        <div class="img_logo_outcontain">
+      
+      <div>
+        <div class="img_span">
+        <center>
+          <div class="img_logo_outcontain">
           <div class="img_logo_incontain">
             <!-- image search url -->
-            <img
-              class="img_logo"
-              alt="Google"
-              src="googlelogo_color_272x92dp.png"
-              width="272"
-              height="92"
-            />
-          </div>
-          <span class="sub_logo">Images</span>
-        </div>
-        <div class="image_form_outcontain">
-          <!-- image search url -->
-          <form action="https://images.google.com/search">
             <div>
-              <div class="image_form_incontain">
-                <!-- img search bar -->
-                <div class="img_search_bar_outcontain" id="hover_bar">
-                  <div class="img_search_bar_incontain">
-                    <!-- img search icon -->
-                    <div class="img_search_icon_outcontain">
-                      <div class="img_search_icon_incontain">
-                        <span class="img_search_icon">
+              <img
+                class="img_logo"
+                alt="Google"
+                src="googlelogo_color_272x92dp.png"
+                width="272"
+                height="92"
+              />
+              <div>
+                <span class="sub_logo">Images</span>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="img_search_bar_outcontain">
+        <div class="img_form_outcontain">
+          <form action="https://images.google.com/search">
+            <div class="img_bar_outcontain">
+              <div class="img_bar_incontain">
+                <div class="img_bar" id="hover_bar">
+                  <!-- img search icon -->
+                  <div class="img_search_input_outcontain">
+                    <div class="img_icon_outcontain">
+                      <div class="img_icon_incontain">
+                        <span class="img_icon">
                           <svg
                             focusable="false"
                             xmlns="http://www.w3.org/2000/svg"
@@ -57,19 +63,20 @@
                         </span>
                       </div>
                     </div>
-                    <!-- image search input -->
-                    <div class="img_search_input_outcontain">
-                      <div class="image_icon_outcontain">
-                        <div class="image_icon_incontain">
-                          <span class="image_icon"></span>
-                        </div>
-                      </div>
+                    <div class="img_search_input_incontain">
+                      <div class="img_search"></div>
                       <!-- hidden image search parameters -->
                       <input type="hidden" name="tbm" value="isch" />
                       <!-- image search parameters -->
                       <input class="img_search_input" type="text" name="q" />
                     </div>
-                    <div></div>
+                    <div class="img_search_icon_outcontain">
+                      <div
+                        class="img_search_icon_incontain">
+                        <span class="img_search_icon" aria-label="Search by image"
+                        role="button"></span>
+                      </div>
+                    </div>
                   </div>
                   <button class="image_btn_outcontain" type="submit">
                     <div class="image_btn_incontain">
@@ -91,7 +98,10 @@
             </div>
           </form>
         </div>
-      </center>
+        <!-- image search url -->
+          </div>
+        </center>
+      </div>
     </div>
   </body>
 </html>
