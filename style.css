@@ -55,6 +55,8 @@ a:hover {
   height: 48px;
 }
 
+/**Style for Search**/
+
 /**Google Logo**/
 
 .logo_outcontain {
@@ -448,7 +450,79 @@ a:hover {
 }
 
 /**Style for Advanced**/
-/* overall OuterContainer*/
+
+/**Advanced Title Bar**/
+.adv_title_bar {
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+}
+
+.adv_title_bar label {
+  margin-left: 10px;
+}
+
+.adv_tp_divider {
+  border-bottom: 1px solid #ebebeb;
+}
+
+/** Advanced Search Form**/
+
+.adv_form_outcontain {
+  max-width: 1140px;
+  min-width: 200px;
+  width: 96%;
+  margin: 40px 2% 0 45px;
+}
+
+.adv_title_outcontain {
+  width: 100%;
+  clear: both;
+}
+
+/**Advanced Instructions**/
+
+.adv_title_incontain {
+  clear: both;
+}
+
+.instruct_outcontain {
+  float: left;
+  min-width: 167px;
+  width: 16%;
+  font-size: 16px;
+  min-height: 42px;
+  font-weight: 500;
+  color: #333;
+}
+
+.instruct_incontain {
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.instruct_whitespace {
+  float: left;
+  min-width: 167px;
+  min-height: 41px;
+  width: 50%;
+}
+
+.instruct_ex_outcontain {
+  float: left;
+  width: 33%;
+  font-size: 13px;
+  font-weight: 700;
+  color: #777;
+  padding-left: 5px;
+}
+
 .bottom-wrapper {
   min-height: 100%;
   margin: 0 auto -60px;
