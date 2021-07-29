@@ -27,10 +27,10 @@
       </div>
       <div class="adv_tp_divider"></div>
       <div class="adv_form_outcontain">
-        <form action="https://google.com/search">
-          <div class="adv_title_outcontain">
+        <form action="https://google.com/search" method="GET" class="advanced">
+          <div class="form_block">
             <!--Instructions-->
-            <div class="adv_title_incontain">
+            <div class="form_section">
               <div class="instruct_outcontain">
                 <div class="instruct_incontain">
                   <span class="instructions">Find pages with...</span>
@@ -43,125 +43,130 @@
             </div>
           </div>
           <input type="hidden" value="en" name="hl" />
-          <div class="adv_input_outcontain">
+          <div class="form_block">
             <!--all these words-->
-            <div class="all_wds_outcontain">
-              <div class="all_wds_ttl_outcontain">
-                <div class="all_wds_ttl_incontain">
-                  <label for="as_q">all these words: </label>
+            <div class="form_section">
+              <div class="ttl_outcontain">
+                <div class="incontain">
+                  <label for="all_wds">all these words: </label>
                 </div>
               </div>
-              <div class="all_wds_ input_ outcontain">
-                <div class="all_wrds_input_incontain">
+              <div class="input_outcontain">
+                <div class="input_incontain">
                   <input
-                    class="all_wds_input"
-                    id="as_q"
+                    class="user_input"
+                    id="all_wds"
                     type="text"
                     name="as_q"
                   />
                 </div>
               </div>
-              <div class="all_wds_ex_outcontain">
-                <div class="all_wds_ex_incontain">
+              <div class="ex_outcontain">
+                <div class="incontain">
                   Type the important words:
-                  <span class="all_wds_example">tricolor rat terrier</span>
+                  <span class="example">tricolor rat terrier</span>
                 </div>
               </div>
             </div>
             <!--this exact phrase-->
-            <div class="exact_wds_outcontain">
-              <div class="exact_wds_ttl_outcontain">
-                <div class="exact_wds_ttl_incontain">
-                  <label for="as_epq">this exact word or phrase:</label>
+            <div class="form_section">
+              <div class="ttl_outcontain">
+                <div class="incontain">
+                  <label for="exact_wds">this exact word or phrase:</label>
                 </div>
               </div>
-              <div class="exact_wds_ input_ outcontain">
-                <div class="exact_wrds_input_incontain">
+              <div class="input_outcontain">
+                <div class="input_incontain">
                   <input
-                    class="exact_wds_input"
-                    id="as_epq"
+                    class="user_input"
+                    id="exact_wds"
                     type="text"
                     name="as_epq"
                   />
                 </div>
               </div>
-              <div class="exact_wds_ex_outcontain">
-                <div class="exact_wds_ex_incontain">
+              <div class="ex_outcontain">
+                <div class="incontain">
                   Put exact words in quotes:
-                  <span class="exact_wds_example">"rat terrier"</span>
+                  <span class="example">"rat terrier"</span>
                 </div>
               </div>
             </div>
             <!--any of these words-->
-            <div class="any_wds_outcontain">
-              <div class="any_wds_ttl_outcontain">
-                <div class="any_wds_ttl_incontain">
-                  <label for="as_oq">any of these words:</label>
+            <div class="form_section">
+              <div class="ttl_outcontain">
+                <div class="incontain">
+                  <label for="any_wds">any of these words:</label>
                 </div>
               </div>
-              <div class="any_wds_ input_ outcontain">
-                <div class="any_wrds_input_incontain">
+              <div class="input_outcontain">
+                <div class="input_incontain">
                   <input
-                    class="any_wds_input"
-                    id="as_oq"
+                    class="user_input"
+                    id="any_wds"
                     type="text"
                     name="as_oq"
                   />
                 </div>
               </div>
-              <div class="any_wds_ex_outcontain">
-                <div class="any_wds_ex_incontain">
+              <div class="ex_outcontain">
+                <div class="incontain">
                   Type
-                  <span class="any_wds_example1">OR</span>
+                  <span class="example">OR</span>
                   between all the words you want:
-                  <span class="any_wds_example2">miniture OR standard</span>
+                  <span class="example">miniture OR standard</span>
                 </div>
               </div>
             </div>
             <!--none of these words-->
-            <div class="none_wds_outcontain">
-              <div class="none_wds_ttl_outcontain">
-                <div class="none_wds_ttl_incontain">
-                  <label for="as_eq">none of these words:</label>
+            <div class="form_section">
+              <div class="ttl_outcontain">
+                <div class="incontain">
+                  <label for="none_wds">none of these words:</label>
                 </div>
               </div>
-              <div class="none_wds_ input_ outcontain">
-                <div class="none_wrds_input_incontain">
+              <div class="input_outcontain">
+                <div class="input_incontain">
                   <input
-                    class="none_wds_input"
-                    id="as_eq"
+                    class="user_input"
+                    id="none_wds"
                     type="text"
                     name="as_eq"
                   />
                 </div>
               </div>
-              <div class="none_wds_ex_outcontain">
-                <div class="none_wds_ex_incontain">
+              <div class="ex_outcontain">
+                <div class="incontain">
                   Put a minus sign just before words you don't want:
-                  <span class="none_wds_example">-rodent, -Jack Russell</span>
+                  <span class="example">-rodent, -Jack Russell</span>
                 </div>
               </div>
             </div>
             <!--numbers ranging from-->
-            <div class="nums_outcontain">
-              <div class="nums_ttl_outcontain">
-                <div class="nums_ttl_incontain">
-                  <label for="as_nlo">numbers ranging from:</label>
+            <div class="form_section">
+              <div class="ttl_outcontain">
+                <div class="incontain>
+                  <label for="nums_lo">numbers ranging from:</label>
                 </div>
               </div>
-              <div class="nums_input_ outcontain">
-                <div class="nums_input_incontain">
-                  <div class="nums_lo_input_outcontain">
+              <div class="input_outcontain" style="position: relative;">
+                <div style="display: table; width: 100%">
+                  <div style="display: table-cell; padding-right: 16px">
                     <input
-                      class="nums_lo"
-                      id="as_nlo"
+                      class="user_input"
+                      id="nums_lo"
                       type="text"
                       name="as_nlo"
                     />
                   </div>
-                  <div class="nums_hi_input_outcontain">
+                  <div
+                    style="display: table-cell; width: 40px; padding-right: 6px; padding-left: 6px; font-size: 13px; color: #202124"
+                  >
+                    to
+                  </div>
+                  <div style="display: table-cell; padding-right: 16px">
                     <input
-                      class="nums_hi"
+                      class="user_input"
                       id="as_nhi"
                       type="text"
                       name="as_nhi"
@@ -169,27 +174,23 @@
                   </div>
                 </div>
               </div>
-              <div class="nums_ex_outcontain">
-                <div class="nums_ex_incontain">
+              <div class="ex_outcontain">
+                <div class="incontain">
                   Put 2 periods between the numbers and add a unit of measure:
-                  <span class="nums_example"
-                    >10..35 lb, $300..$500, 2010..2011</span
-                  >
+                  <span class="example">10..35 lb, $300..$500, 2010..2011</span>
                 </div>
               </div>
             </div>
             <!--advanced button-->
-            <div class="adv_btn_outcontain">
-              <div class="adv_btn_lt"></div>
-              <div class="adv_btn_incontain">
-                <div class="adv_btn_input">
-                  <input type="submit" />
-                </div>
+            <div class="form_section">
+              <div class="ttl_outcontain"></div>
+              <div class="input_outcontain" style="text-align: right">
+                <input class="adv_btn" value="Advanced Search" type="submit" />
               </div>
-              <div class="adv_btn_rt"></div>
+              <div class="ex_outcontain"></div>
             </div>
           </div>
-          <div class="bt_divider"></div>
+          <div class="form_block"></div>
         </form>
       </div>
     </div>
