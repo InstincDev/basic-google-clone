@@ -11,19 +11,8 @@ A functioning Front-End for Google Search, Google Image Search, and Google Advan
 
 https://foogle-gu.netlify.app
 
-
 ## Tech Stack
-HTML, CSS, Python
-
-## Deployment
-
-To deploy this project run
-
-```bash
-For Developement, run npm run dev in the root directory. (the express app will serve the .ejs frontend)
-For Production, run npm start in the root directory. (the express app will serve the .ejs frontend)
-```
-
+HTML, CSS
 
 ## Features
 
