@@ -12,7 +12,7 @@ A functioning Front-End for Google Search, Google Image Search, and Google Advan
 https://foogle-gu.netlify.app
 
 ## Tech Stack
-HTML, CSS
+![HTML5 BADGE](https://img.shields.io/static/v1?label=|&message=HTML5&color=03989E&style=plastic&logo=html5)  ![CSS BADGE](https://img.shields.io/static/v1?label=|&message=CSS3&color=03989e&style=plastic&logo=css3) 
 
 ## Features
 
