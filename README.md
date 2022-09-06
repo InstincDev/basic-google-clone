@@ -2,12 +2,14 @@ Google Search Clone
 
 A functioning Front-End for Google Search, Google Image Search, and Google Advanced Search.
 
+## Demo
+![foogle_go](https://user-images.githubusercontent.com/67307808/188706578-e20e9570-8d6d-4233-bd10-079476d6f9ac.gif)
+
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-
-## Demo
+![foogle_gu](https://user-images.githubusercontent.com/67307808/188706497-91a52c72-3bea-4bf9-af63-425d110582a3.png)
+![foogle_gu2](https://user-images.githubusercontent.com/67307808/188706541-c2d9625e-cec6-4083-b7c5-38bb3b31412e.png)
+![foogle_gu3](https://user-images.githubusercontent.com/67307808/188706544-ec579515-2abd-45b7-ac34-e9a1e75b6e52.png)
 
 https://foogle-gu.netlify.app
 
