@@ -1,4 +1,4 @@
-Google Search Clone
+# Google Search Clone
 
 A functioning Front-End for Google Search, Google Image Search, and Google Advanced Search clone.
 
