@@ -1,6 +1,6 @@
 Google Search Clone
 
-A functioning Front-End for Google Search, Google Image Search, and Google Advanced Search.
+A functioning Front-End for Google Search, Google Image Search, and Google Advanced Search clone.
 
 ## Demo
 ![foogle_go](https://user-images.githubusercontent.com/67307808/188706578-e20e9570-8d6d-4233-bd10-079476d6f9ac.gif)
